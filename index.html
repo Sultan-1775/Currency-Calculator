@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="input-group">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount" autofocus>
+        </div>
+        <div class="input-group">
+            <label for="fromCurrency">From Currency:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <option value="AUD">AUD - Australian Dollar</option>
+                <option value="CAD">CAD - Canadian Dollar</option>
+                <option value="CHF">CHF - Swiss Franc</option>
+                <option value="CNY">CNY - Chinese Yuan</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="BRL">BRL - Brazilian Real</option>
+                <option value="MXN">MXN - Mexican Peso</option>
+                <option value="ZAR">ZAR - South African Rand</option>
+                <option value="SEK">SEK - Swedish Krona</option>
+                <option value="NOK">NOK - Norwegian Krone</option>
+                <option value="RUB">RUB - Russian Ruble</option>
+                <option value="KZT">KZT - Kazakhstan Tenge</option> <!-- Добавлено KZT -->
+                <!-- You can add more currencies here -->
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="toCurrency">To Currency:</label>
+            <select id="toCurrency">
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <option value="AUD">AUD - Australian Dollar</option>
+                <option value="CAD">CAD - Canadian Dollar</option>
+                <option value="CHF">CHF - Swiss Franc</option>
+                <option value="CNY">CNY - Chinese Yuan</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="BRL">BRL - Brazilian Real</option>
+                <option value="MXN">MXN - Mexican Peso</option>
+                <option value="ZAR">ZAR - South African Rand</option>
+                <option value="SEK">SEK - Swedish Krona</option>
+                <option value="NOK">NOK - Norwegian Krone</option>
+                <option value="RUB">RUB - Russian Ruble</option>
+                <option value="KZT">KZT - Kazakhstan Tenge</option> <!-- Добавлено KZT -->
+            </select>
+        </div>
+        <button id="convertButton">Convert</button>
+        <div id="result">
+            <p id="conversionResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
